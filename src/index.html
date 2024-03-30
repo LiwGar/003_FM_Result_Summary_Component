@@ -14,23 +14,29 @@
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
-<body class="font-haken bg-gray-100">
+<body class="font-haken bg-gray-100 md:py-36">
 
-  <section class="w-[100%] max-w-md mx-auto bg-white align-center shadow-2xl rounded-b-3xl">
+  <section class="w-[100%] max-w-md mx-auto bg-white align-center shadow-2xl rounded-b-3xl
+                  md:flex md:max-w-3xl md:rounded-2xl">
     
-    <article class="p-10 bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue text-center rounded-b-3xl">
+    <article class="p-10 bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue text-center rounded-b-3xl
+                    md:grid md:w-[50%] md:content-center md:rounded-3xl">
       
       <p class="text-neutral-LightLavender font-bold text-lg">Your Result</p>
-      <div class="w-36 mx-auto my-8 aspect-square bg-gradient-to-b from-gradients-VioletBlue to-gradients-PersianBlue content-center rounded-full">
-        <p class="mb-2 text-neutral-White font-bold text-5xl ">76</p>
+      <div class="w-36 mx-auto my-8 aspect-square bg-gradient-to-b from-gradients-VioletBlue to-gradients-PersianBlue content-center rounded-full
+                  md:w-56">
+        <p class="mb-2 text-neutral-White font-bold text-5xl
+                  md:text-7xl">76</p>
         <p class="text-neutral-LightLavender font-bold">of 100</p>
       </div>
-      <h3 class="mb-4 text-neutral-White font-bold text-2xl tracking-wide"> Great</h3>
-      <p class="w-[90%] mx-auto text-neutral-LightLavender text-center text-sm">You scored higher than 65% of the people who have taken these tests.</p>
+      <h3 class="mb-4 text-neutral-White font-bold text-2xl tracking-wide
+                md:text-3xl"> Great</h3>
+      <p class="w-[90%] mx-auto text-neutral-LightLavender text-center text-sm
+                md:w-[70%]">You scored higher than 65% of the people who have taken these tests.</p>
     
     </article>
 
-    <article class="grid p-6 gap-4">
+    <article class="grid p-6 gap-4 md:w-[50%] md:p-10">
       
       <h3 class="font-bold text-xl">Summary</h3>
       
@@ -70,8 +76,9 @@
         </p>
       </div>
 
-      <button class="bg-neutral-DarkGrayBlue rounded-3xl">
-        <a href="#">Continue</a>
+      <button class="py-4 bg-neutral-DarkGrayBlue rounded-full hover:bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue
+                    md:mt-2">
+        <a href="#" class="text-neutral-White font-bold text-lg">Continue</a>
       </button>
 
     </article>
