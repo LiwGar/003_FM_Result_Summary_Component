@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Results summary component]()
+- Live Site URL: [Results summary component](https://liwgar.github.io/003_FM_Result_Summary_Component/)
 
 ## My process
 
