@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,18 +13,22 @@
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
-<body class="font-haken bg-gray-100 md:py-36">
+<body class="font-haken bg-gray-100 md:py-36 dark:bg-dark-zinc900">
+
+  <button id="dark_mode" class="absolute top-4 right-4 z-10 text-neutral-LightLavender" id="dark_mode">
+    <img src="./src/assets/images/darkMode.svg" class="w-7 h-7 text-neutral-LightLavender">
+  </button>
 
   <section class="w-[100%] max-w-md mx-auto bg-white align-center shadow-2xl rounded-b-3xl
-                  md:flex md:max-w-3xl md:rounded-2xl">
+                  md:flex md:max-w-3xl md:rounded-3xl dark:bg-dark-stone300 dark:shadow-neutral-DarkGrayBlue/60">
     
     <article class="p-10 bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue text-center rounded-b-3xl
                     md:grid md:w-[50%] md:content-center md:rounded-3xl">
-      
+
       <p class="text-neutral-LightLavender font-bold text-lg">Your Result</p>
       <div class="w-36 mx-auto my-8 aspect-square bg-gradient-to-b from-gradients-VioletBlue to-gradients-PersianBlue content-center rounded-full
-                  md:w-56">
-        <p class="mb-2 text-neutral-White font-bold text-5xl
+                  md:w-56 md:content-center">
+        <p class="mb-2 my-auto text-neutral-White font-bold text-5xl
                   md:text-7xl">76</p>
         <p class="text-neutral-LightLavender font-bold">of 100</p>
       </div>
@@ -85,7 +88,7 @@
       
   </section>
 
-  <div class="w-[100%] max-w-md mx-auto my-2 text-neutral-DarkGrayBlue/50 text-center">
+  <div class="w-[100%] max-w-md mx-auto my-2 text-neutral-DarkGrayBlue/50 text-center dark:text-neutral-LightLavender">
     Challenge by 
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
     Frontend Mentor
@@ -95,5 +98,7 @@
       LiwGar
     </a>.
   </div>
+
+  <script src="./src/main.js"></script>
 </body>
 </html>
