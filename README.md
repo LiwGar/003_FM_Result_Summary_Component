@@ -63,3 +63,10 @@ The objective is:
 - Website - [LiwGAr](https://liwgar-portfolio.vercel.app/)
 - Frontend Mentor - [@Liwgar](https://www.frontendmentor.io/profile/LiwGar)
 
+
+# I've just completed a front-end coding challenge from @frontendmentor! 🎉
+
+You can see my solution here: https://www.frontendmentor.io/solutions/responsive-resultsummarycomponent-using-tailwindcss-KlrXgaX9ZE
+
+Any suggestions on how I can improve are welcome!
+
