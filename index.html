@@ -1,100 +1,136 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Frontend Mentor | Results summary component</title>
-
-</head>
-<body class="font-haken bg-gray-100 md:py-36">
-
-  <section class="w-[100%] max-w-md mx-auto bg-white align-center shadow-2xl rounded-b-3xl
-                  md:flex md:max-w-3xl md:rounded-3xl">
-    
-    <article class="p-10 bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue text-center rounded-b-3xl
-                    md:grid md:w-[50%] md:content-center md:rounded-3xl">
-
-      <p class="text-neutral-LightLavender font-bold text-lg">Your Result</p>
-      <div class="w-36 mx-auto my-8 aspect-square bg-gradient-to-b from-gradients-VioletBlue to-gradients-PersianBlue content-center rounded-full
-                  md:w-56 md:content-center">
-        <p class="mb-2 my-auto text-neutral-White font-bold text-5xl
-                  md:text-7xl">76</p>
-        <p class="text-neutral-LightLavender font-bold">of 100</p>
-      </div>
-      <h3 class="mb-4 text-neutral-White font-bold text-2xl tracking-wide
-                md:text-3xl"> Great</h3>
-      <p class="w-[90%] mx-auto text-neutral-LightLavender text-center text-sm
-                md:w-[70%]">You scored higher than 65% of the people who have taken these tests.</p>
-    
-    </article>
-
-    <article class="grid p-6 gap-4 md:w-[50%] md:p-10">
-      
-      <h3 class="font-bold text-xl">Summary</h3>
-      
-      <div class="flex px-4 py-4 bg-primary-LightRed/5 items-center rounded-xl">
-        <img src="./src/assets/images/icon-reaction.svg">
-        <p class="ml-3 text-primary-LightRed font-bold text-lg">Reaction</p>
-        <p class="ml-auto font-bold ">
-          <span class="text-primary-DarkGrayBlue">80</span>
-          <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="font-haken bg-gray-100 md:py-36">
+    <main
+      class="w-[100%] max-w-md mx-auto bg-white align-center shadow-2xl rounded-b-3xl md:flex md:max-w-3xl md:rounded-3xl"
+    >
+      <article
+        class="p-10 bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue text-center rounded-b-3xl md:grid md:w-[50%] md:content-center md:rounded-3xl"
+      >
+        <p class="text-neutral-LightLavender font-bold text-lg">Your Result</p>
+        <div
+          class="w-36 mx-auto my-8 aspect-square bg-gradient-to-b from-gradients-VioletBlue to-gradients-PersianBlue content-center rounded-full md:w-56 md:content-center"
+        >
+          <p
+            class="mb-2 my-auto text-neutral-White font-bold text-5xl md:text-7xl"
+          >
+            76
+          </p>
+          <p class="text-neutral-LightLavender font-bold">of 100</p>
+        </div>
+        <h3
+          class="mb-4 text-neutral-White font-bold text-2xl tracking-wide md:text-3xl"
+        >
+          Great
+        </h3>
+        <p
+          class="w-[90%] mx-auto text-neutral-LightLavender text-center text-sm md:w-[70%]"
+        >
+          You scored higher than 65% of the people who have taken these tests.
         </p>
-      </div>
+      </article>
 
-      <div class="flex px-4 py-4 bg-primary-OrangeYellow/5 items-center rounded-xl">
-        <img src="./src/assets/images/icon-memory.svg">
-        <p class="ml-3 text-primary-OrangeYellow font-bold text-lg">Memory</p>
-        <p class="ml-auto font-bold ">
-          <span class="text-primary-DarkGrayBlue">92</span>
-          <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
-        </p>
-      </div>
+      <article class="grid p-6 gap-4 md:w-[50%] md:p-10">
+        <h3 class="font-bold text-xl">Summary</h3>
 
-      <div class="flex px-4 py-4 bg-primary-GreenTeal/5 items-center rounded-xl">
-        <img src="./src/assets/images/icon-verbal.svg">
-        <p class="ml-3 text-primary-GreenTeal font-bold text-lg">Verbal</p>
-        <p class="ml-auto font-bold ">
-          <span class="text-primary-DarkGrayBlue">61</span>
-          <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
-        </p>
-      </div>
+        <div
+          class="flex px-4 py-4 bg-primary-LightRed/5 items-center rounded-xl"
+        >
+          <img 
+            src="./src/assets/images/icon-reaction.svg" 
+            alt="icon_Reaction"
+          />
+          <p class="ml-3 text-primary-LightRed font-bold text-lg">Reaction</p>
+          <p class="ml-auto font-bold">
+            <span class="text-primary-DarkGrayBlue">80</span>
+            <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
+          </p>
+        </div>
 
-      <div class="flex px-4 py-4 bg-primary-CobaltBlue/5 items-center rounded-xl">
-        <img src="./src/assets/images/icon-visual.svg">
-        <p class="ml-3 text-primary-CobaltBlue font-bold text-lg">Visual</p>
-        <p class="ml-auto font-bold ">
-          <span class="text-primary-DarkGrayBlue">72</span>
-          <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
-        </p>
-      </div>
+        <div
+          class="flex px-4 py-4 bg-primary-OrangeYellow/5 items-center rounded-xl"
+        >
+          <img 
+            src="./src/assets/images/icon-memory.svg" 
+            alt="icon_Memory"
+          />
+          <p class="ml-3 text-primary-OrangeYellow font-bold text-lg">Memory</p>
+          <p class="ml-auto font-bold">
+            <span class="text-primary-DarkGrayBlue">92</span>
+            <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
+          </p>
+        </div>
 
-      <button class="py-4 bg-neutral-DarkGrayBlue rounded-full hover:bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue
-                    md:mt-2">
-        <a href="#" class="text-neutral-White font-bold text-lg">Continue</a>
-      </button>
+        <div
+          class="flex px-4 py-4 bg-primary-GreenTeal/5 items-center rounded-xl"
+        >
+          <img 
+            src="./src/assets/images/icon-verbal.svg" 
+            alt="icon_Verbal"
+          />
+          <p class="ml-3 text-primary-GreenTeal font-bold text-lg">Verbal</p>
+          <p class="ml-auto font-bold">
+            <span class="text-primary-DarkGrayBlue">61</span>
+            <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
+          </p>
+        </div>
 
-    </article>
-      
-  </section>
+        <div
+          class="flex px-4 py-4 bg-primary-CobaltBlue/5 items-center rounded-xl"
+        >
+          <img 
+            src="./src/assets/images/icon-visual.svg" 
+            alt="icon_Visual"
+          />
+          <p class="ml-3 text-primary-CobaltBlue font-bold text-lg">Visual</p>
+          <p class="ml-auto font-bold">
+            <span class="text-primary-DarkGrayBlue">72</span>
+            <span class="text-neutral-DarkGrayBlue/50">/ 100</span>
+          </p>
+        </div>
 
-  <div class="w-[100%] max-w-md mx-auto my-2 text-neutral-DarkGrayBlue/50 text-center">
-    Challenge by 
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-    Frontend Mentor
-    </a>. 
-    Coded by 
-    <a href="https://liwgar-portfolio.vercel.app/" class="text-primary-CobaltBlue font-bold">
-      LiwGar
-    </a>.
-  </div>
+        <div
+          class="py-4 bg-neutral-DarkGrayBlue text-center rounded-full hover:bg-gradient-to-b from-gradients-LightSlateBlue to-gradients-LightRoyalBlue md:mt-2"
+        >
+          <a href="#" class="text-neutral-White font-bold text-lg">Continue</a>
+        </div>
+      </article>
+    </main>
 
-  <script src="./src/main.js"></script>
-</body>
+    <footer
+      class="w-[100%] max-w-md mx-auto my-2 text-neutral-DarkGrayBlue/50 text-center"
+    >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor </a
+      >. Coded by
+      <a
+        href="https://liwgar-portfolio.vercel.app/"
+        class="text-primary-CobaltBlue font-bold"
+      >
+        LiwGar </a
+      >.
+    </footer>
+
+    <script src="./src/main.js"></script>
+  </body>
 </html>
